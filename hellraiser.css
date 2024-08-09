@@ -64,11 +64,12 @@ nav {
 
 
 .contenedor-principal {
-    height: 100%;
+    padding: 2%;
+    height: max-content;
     width: 100%;
     background-color: rgb(1, 1, 46);
-    background-image: url("hell-fon.jpg");
-    background-position: center;
+    background-image: url("hellraiser1wallpaper2c.jpg");
+    background-size: 100% 100%;
     display: grid;
     background-repeat: no-repeat;
     grid-template-columns: repeat(2, 1fr);
@@ -97,6 +98,10 @@ nav {
     top: 20%;
 }
 
+.adentro img{
+    height: 40%;
+    width: 40%;
+}
 
 
 .contenedor-afilados a {
