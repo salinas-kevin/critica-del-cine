@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,26 +11,24 @@ a:hover {
 
 body {
     min-height: 100vh;
-    background: linear-gradient(90deg, rgba(180, 7, 7, 0.9346113445378151) 24%, rgba(2, 117, 92, 0.8169642857142857) 54%, rgba(10, 10, 122, 1) 77%);
-    display: grid;
+    background: rgb(45,2,46);
+    background: linear-gradient(180deg, rgba(45,2,46,1) 25%, rgba(26,63,74,0.9906337535014006) 61%, rgba(34,34,34,0.9906337535014006) 87%);      display: grid;
     grid-template-rows: auto 1fr auto;
 }
-
 nav {
     border: ridge yellow 5px;
     background-color: rgba(10, 53, 110, 0.891);
 }
 
 .tt {
-    background-color: forestgreen;
-    background-image: linear-gradient(to right, #da4822, #e6265d, #d42f97, #a152c7, #2b6de3);
+    background-color: #917fd3;
     border-style: outset;
+    border-color: rgb(124, 122, 122);
     width: 97%;
     margin: 6px;
     height: 55%;
     display: flex;
     align-self: center;
-    background-color: rgba(0, 0, 255, 0.295);
     /* poner elementos a en los li para centrar */
 
 }
@@ -43,6 +41,7 @@ nav {
     color: white;
     margin: 10px;
 }
+
 
 .Logo {
     margin: 5px;
@@ -62,12 +61,11 @@ nav {
 
 }
 
-
 .contenedor-principal {
-    height: 100%;
+    padding: 2%;
+    height: max-content;
     width: 100%;
-    background-color: rgb(1, 1, 46);
-    background-image: url("alien-fondo.jpeg");
+    background-image: url(the-flash-fondo.jpg);
     background-size: 100% 100%;
     display: grid;
     background-repeat: no-repeat;
@@ -97,6 +95,10 @@ nav {
     top: 20%;
 }
 
+.adentro img{
+    height: 40%;
+    width: 40%;
+}
 
 
 .contenedor-afilados a {
@@ -141,7 +143,7 @@ nav {
 
 
 .item2 a {
-    color: red;
+    color: rgb(183, 255, 0);
 }
 
 h3 {

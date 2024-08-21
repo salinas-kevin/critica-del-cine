@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
-    color: rgb(225, 255, 0);
-}
 
 a:hover {
     color: red;
@@ -15,26 +11,24 @@ a:hover {
 
 body {
     min-height: 100vh;
-    background: linear-gradient(90deg, rgba(180, 7, 7, 0.9346113445378151) 24%, rgba(2, 117, 92, 0.8169642857142857) 54%, rgba(10, 10, 122, 1) 77%);
-    display: grid;
+    background: rgb(45,2,46);
+    background: linear-gradient(180deg, rgba(45,2,46,1) 25%, rgba(26,63,74,0.9906337535014006) 61%, rgba(34,34,34,0.9906337535014006) 87%);      display: grid;
     grid-template-rows: auto 1fr auto;
 }
-
 nav {
     border: ridge yellow 5px;
     background-color: rgba(10, 53, 110, 0.891);
 }
 
 .tt {
-    background-color: forestgreen;
-    background-image: linear-gradient(to right, #da4822, #e6265d, #d42f97, #a152c7, #2b6de3);
+    background-color: #917fd3;
     border-style: outset;
+    border-color: rgb(124, 122, 122);
     width: 97%;
     margin: 6px;
     height: 55%;
     display: flex;
     align-self: center;
-    background-color: rgba(0, 0, 255, 0.295);
     /* poner elementos a en los li para centrar */
 
 }
@@ -48,6 +42,7 @@ nav {
     margin: 10px;
 }
 
+
 .Logo {
     margin: 5px;
     min-height: 80px;
@@ -60,7 +55,7 @@ nav {
 
 .algos {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     text-align: center;
     min-height: 5vh;
 
@@ -206,6 +201,7 @@ h3{
     background-color: rgba(128, 255, 0, 0);
     margin: 7px;
     border-style: outset;
+    text-align: center;
 }
 
 li{
