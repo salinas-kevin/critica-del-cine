@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,10 +13,12 @@ a:hover {
 
 body {
     min-height: 100vh;
-    background: rgb(45,2,46);
-    background: linear-gradient(180deg, rgba(45,2,46,1) 25%, rgba(26,63,74,0.9906337535014006) 61%, rgba(34,34,34,0.9906337535014006) 87%);      display: grid;
+    background: rgb(45, 2, 46);
+    background: linear-gradient(180deg, rgba(45, 2, 46, 1) 25%, rgba(26, 63, 74, 0.9906337535014006) 61%, rgba(34, 34, 34, 0.9906337535014006) 87%);
+    display: grid;
     grid-template-rows: auto 1fr auto;
 }
+
 nav {
     border: ridge yellow 5px;
     background-color: rgba(10, 53, 110, 0.891);
@@ -97,7 +99,7 @@ nav {
     top: 20%;
 }
 
-.adentro img{
+.adentro img {
     height: 40%;
     width: 40%;
 }
@@ -185,21 +187,21 @@ footer {
 
 section {
     height: 100vh;
-    
+
 }
 
-section div{
+section div {
     margin: 15px;
     padding: 10px;
     min-height: 80vh;
     max-width: 100%;
     background-color: rgba(255, 255, 255, 0.808);
-    border-radius: 10px  ;
+    border-radius: 10px;
     border: double rgb(178, 178, 15) 15px;
-    
+
 }
 
-section p{
+section p {
     height: 80vh;
     padding: 10px;
     text-align: center;
@@ -208,3 +210,7 @@ section p{
     font-size: 140%;
 }
 
+
+table {
+    color: rgb(233, 221, 221);
+}
