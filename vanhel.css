@@ -67,7 +67,7 @@ nav {
     padding: 2%;
     height: max-content;
     width: 100%;
-    background-image: url(hells-hor.jpg);
+    background-color: rgb(58, 0, 0);
     background-size: 100% 100%;
     display: grid;
     background-repeat: no-repeat;

@@ -1,8 +1,9 @@
 *{
-    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-repeat: no-repeat;
+
 }
 
 
@@ -66,7 +67,7 @@ nav {
     padding: 2%;
     height: max-content;
     width: 100%;
-    background-image: url(punisher-fondo.jpg);
+   background-color: #000000;
     background-size: 100% 100%;
     display: grid;
     background-repeat: no-repeat;

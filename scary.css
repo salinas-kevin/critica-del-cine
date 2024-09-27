@@ -67,7 +67,7 @@ nav {
     padding: 2%;
     height: max-content;
     width: 100%;
-    background-image: url(scary3-hor.jpg);
+   background-color: rgb(1, 13, 55);
     background-size: 100% 100%;
     display: grid;
     background-repeat: no-repeat;

@@ -67,8 +67,7 @@ nav {
     padding: 2%;
     height: max-content;
     width: 100%;
-    background-image: url(hellraiser1wallpaper2c.jpg);
-    background-size: 100% 100%;
+    background-color: #000000;
     display: grid;
     background-repeat: no-repeat;
     grid-template-columns: repeat(2, 1fr);
