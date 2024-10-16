@@ -3,12 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     background-repeat: no-repeat;
-    height: min-content;
-    width: min-content;
 }
-
-
-
 a {
     text-decoration: none;
     color: rgb(255, 255, 0);
