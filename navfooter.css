@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+  }
+  
+  /*navegacion*/
+  nav {
+    padding: 10px 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: ridge yellow 3px;
+    background-color: rgba(10, 53, 110, 0.891);
+  }
+  .Logo {
+    min-height: 80px;
+    width: 80px;
+    border-radius: 50%;
+  }
+  .algos {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .tt {
+    background-color: rgba(10, 53, 110, 0.891);
+  
+    border-style: outset;
+    border-color: rgb(46, 41, 41);
+    list-style: none;
+    padding: 10px 30px;
+  }
+  .tt:hover {
+    background-color: rgb(108, 127, 213);
+  }
+  .tt a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+  }
+  /*footer*/
+
+footer {
+    background-color: #000000;
+    padding: 20px 10px;
+    text-align: center;
+    color: white;
+    border-top: rgb(119, 117, 117) solid 2px;
+  }
+  
+  .conten-foot {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 16px;
+  }
+  .a-foot > a {
+    display: block;
+    padding: 0px 16px;
+  }
+  .i-foot > a {
+    display: inline-block;
+    padding: 0px 8px;
+  }
+  .tus{
+      padding-top: 20px;
+  }
+  .tus p {
+    font-size: 16px;
+    padding: 0;
+  }
+  i {
+    color: aliceblue;
+    font-size: 30px;
+  }
+  .a-foot a {
+      text-decoration: none;
+      color: rgb(221, 221, 179);
+      text-align: center;
+    }
+    .a-foot a:hover {
+      color: red;
+    }
+  
