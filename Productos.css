@@ -1,0 +1,169 @@
+
+
+body {
+    min-height: auto;
+    min-width: auto;
+    text-align: center;
+    background: rgb(45, 2, 46);
+    background: linear-gradient(180deg, rgba(45, 2, 46, 1) 25%, rgba(26, 63, 74, 0.9906337535014006) 61%, rgba(34, 34, 34, 0.9906337535014006) 87%);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.sbasis { 
+    border: 10px dotted gold;
+    display: flex;
+}
+
+.sbasis-img {
+    width: 20%;
+    background-image: url(FRAN.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+  
+}
+
+.sbasis-text {
+    width: 80%; 
+}
+
+.contenedor-popular{
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    place-items: center;
+    row-gap: 25px;
+    column-gap: 10px
+    
+}
+.fato {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fato-img{
+    
+}
+
+.mg1 {
+    box-shadow: 0 0 10px 2px rgb(195, 16, 16);
+    width: 180px;
+   height: 280px;
+  
+   object-fit: cover;
+}
+
+.la {
+    text-align: center;
+}
+
+.lu {
+    padding: 5px;
+    font-size: 22px;
+    list-style: none;
+    border-style: outset;
+   
+}
+
+li {
+    text-align: center;
+    color: aliceblue;
+}
+
+@media (width<768px){
+
+.sbasis{
+
+    flex-direction: column;
+}
+
+}
+    
+
+.contenedor-populare {
+    padding: 10px;
+    height: min-content;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    place-items: center;
+    gap: 10px;
+    ;
+}
+
+
+.fav {
+    background-color: rgb(136, 45, 45);
+}
+
+
+
+
+.sbase {
+   
+    margin: 4%;
+}
+
+.sbasis-imge {
+    width: 15%;
+    flex-basis: 15%;
+    background-image: url(cript-post.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    border: 5px solid skyblue;
+
+
+}
+
+
+.sbasis-texto {
+    width: 85%;
+    margin: 10px auto;
+    background-color: rgba(14, 139, 14, 0.757);
+    justify-content: center;
+}
+h2 {
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: black;
+    border: 4px solid greenyellow;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 400px;
+    color: rgb(196, 184, 180);
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-width: 40px solid black;
+    border-style: outset;
+    font-size: 25px;
+}
+
+
+
+.princ {
+    margin: 2%;
+
+}
+
+button {
+    border: none;
+    padding: 5% 30%;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: rgb(192, 190, 186);
+}
